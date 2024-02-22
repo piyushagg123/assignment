@@ -1,0 +1,13 @@
+header div:nth-child(0){
+    width: 50%;
+}
+.new{
+    font-size: 10px;
+    background: green;
+    border-radius: 10px;
+    padding: 2px 3px;
+}
+.selected{
+    background: #0B1A3E;
+    color: #79a0ff;
+}
