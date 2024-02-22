@@ -1,0 +1,9 @@
+.link:hover{
+    background: lightskyblue;
+}
+.link:active{
+    background: lightskyblue;
+}
+.link{
+    transition: all 0.5;
+}

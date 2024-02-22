@@ -11,3 +11,14 @@ header div:nth-child(0){
     background: #0B1A3E;
     color: #79a0ff;
 }
+.sec_child{
+    width: 660px;
+}
+@media (max-width:800px) {
+    .second{
+        font-size: 10px;
+    }
+    .sec_child{
+        width: 400px;
+    }
+}

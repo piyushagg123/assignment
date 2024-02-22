@@ -9,7 +9,7 @@ import Dot from "../assets/Dot";
 import Download from "../assets/Download";
 const Home = () => {
   return (
-    <div style={{ background: "#1D2345", height: "100vh" }}>
+    <div style={{ background: "#1D2345", height: "100vh" }} className="pl-12">
       <div
         className="flex justify-between p-3"
         style={{ background: "#080D29", color: "white" }}
@@ -49,34 +49,31 @@ const Home = () => {
 
       <div
         style={{ background: "#111739", color: "white" }}
-        className="p-3 flex justify-between"
+        className="p-3 flex justify-between second"
       >
-        <div
-          className="flex justify-between items-center"
-          style={{ width: "660px" }}
-        >
+        <div className="flex justify-between items-center sec_child">
           <p>Quick Filters:</p>
-          <div
+          {/* <div
             style={{ background: "white", width: "2px", height: "10px" }}
-          ></div>
+          ></div> */}
           <div>
             <label>
               <input type="checkbox" checked />
               All Payouts
             </label>
           </div>
-          <div
+          {/* <div
             style={{ background: "orange", width: "2px", height: "10px" }}
-          ></div>
+          ></div> */}
           <div>
             <label>
               <input type="checkbox" />
               Scheduled For Next 2 Days
             </label>
           </div>
-          <div
+          {/* <div
             style={{ background: "orange", width: "2px", height: "10px" }}
-          ></div>
+          ></div> */}
           <div>
             <label>
               <input type="checkbox" />
